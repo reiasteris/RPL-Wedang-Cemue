@@ -75,6 +75,7 @@ Fitur:
 - Menghapus menu.
 - Mengelola stok menu.
 
+Alur utama:
 ```text
 Menunggu
     ↓
@@ -82,7 +83,6 @@ Diproses
     ↓
 Selesai
 ```
----
 #### Pembatalan Pesanan
 Pembatalan Pesanan
 
@@ -93,6 +93,7 @@ Sistem akan:
 - Mengubah status item pesanan menjadi dibatalkan.
 - Mengembalikan stok menu.
 - Mengembalikan status meja menjadi tersedia.
+---
 
 ### Kasir
 
@@ -107,3 +108,18 @@ Fitur:
 - Melihat transaksi yang telah selesai.
 - Melihat pendapatan hari ini.
 - Melihat informasi transaksi.
+
+Alur utama:
+``` text
+Pesanan Selesai
+      ↓
+Pesanan Siap Dibayar
+      ↓
+Pilih Metode Pembayaran
+      ↓
+Validasi Pembayaran
+      ↓
+Transaksi Selesai
+      ↓
+Pendapatan Dicatat
+```
