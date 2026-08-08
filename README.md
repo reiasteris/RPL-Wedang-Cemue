@@ -23,11 +23,11 @@ Setiap role memiliki halaman dan fungsi yang disesuaikan dengan proses kerja mas
 
 ## Fitur Sistem
 
-### Portal Pelayan
+### Pelayan
 
 Pelayan bertanggung jawab terhadap proses pemesanan pelanggan.
 
-Fitur yang tersedia:
+FituR:
 
 - Melihat kondisi dan ketersediaan meja.
 - Menentukan jumlah pelanggan.
@@ -57,3 +57,21 @@ Pesanan Masuk ke Dapur
 
 ```
 ---
+### Koki
+
+Koki bertanggung jawab terhadap pemrosesan pesanan yang masuk dari Pelayan.
+
+Fitur:
+
+- Melihat antrian pesanan.
+- Melihat detail pesanan.
+- Melihat nomor meja.
+- Melihat jumlah pelanggan.
+- Memulai proses pesanan.
+- Menyelesaikan pesanan.
+- Membatalkan pesanan apabila tidak dapat diproses.
+- Mengelola menu.
+- Menambahkan menu.
+- Mengubah menu.
+- Menghapus menu.
+- Mengelola stok menu.
