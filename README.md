@@ -124,7 +124,7 @@ Transaksi Selesai
 Pendapatan Dicatat
 ```
 
-# 🔐 Hak Akses
+# Hak Akses
 
 PAK RESTO memiliki beberapa jenis pengguna dengan hak akses yang berbeda sesuai dengan tanggung jawab masing-masing.
 
@@ -133,13 +133,12 @@ PAK RESTO memiliki beberapa jenis pengguna dengan hak akses yang berbeda sesuai 
 | Pelayan | Mengelola meja dan membuat pesanan pelanggan |
 | Koki | Memproses pesanan serta mengelola menu dan stok |
 | Kasir | Menangani pembayaran dan transaksi |
-| Pemilik | Memantau operasional dan informasi restoran |
 
 Setiap pengguna diarahkan ke halaman sesuai dengan role yang dimiliki setelah melakukan login.
 
 ---
 
-# 👥 Akun Demo
+# Akun Demo
 
 | Role | Username | Password |
 |------|----------|----------|
@@ -149,7 +148,7 @@ Setiap pengguna diarahkan ke halaman sesuai dengan role yang dimiliki setelah me
 
 ---
 
-# 🔄 Alur Operasional Restoran
+# Alur Operasional Restoran
 
 ```text
 Pelayan
@@ -177,7 +176,7 @@ Pendapatan Dicatat
 
 ---
 
-# 📊 Status Data
+# Status Data
 
 ## Status Pesanan
 
@@ -213,9 +212,9 @@ habis
 
 ---
 
-# 🗄️ Database
+# Database
 
-Data utama yang digunakan:
+Tabel pada database yang digunakan:
 
 - Pegawai
 - Meja
@@ -223,24 +222,9 @@ Data utama yang digunakan:
 - Pesanan
 - Detail Pesanan
 - Pembayaran
-
-Relasi utama:
-
-```text
-Pegawai
-   ↓
-Pesanan
-   ↓
-Detail Pesanan
-   ↓
-Menu
-   ↓
-Pembayaran
-```
-
 ---
 
-# 🛠️ Teknologi
+# Teknologi
 
 | Teknologi | Kegunaan |
 |-----------|----------|
@@ -255,7 +239,7 @@ Pembayaran
 
 ---
 
-# 📁 Struktur Project
+# Struktur Project
 
 ```text
 pak-resto/
@@ -296,7 +280,7 @@ pak-resto/
 
 ---
 
-# 💻 Instalasi dan Menjalankan Program
+# Instalasi dan Menjalankan Program
 
 ## Persyaratan
 
@@ -371,105 +355,4 @@ Buka:
 ```text
 http://localhost/pak-resto/
 ```
-
 ---
-
-# 🧪 Demo Program
-
-## Video 1 — Pelayan
-
-```text
-Login
-  ↓
-Dashboard Pelayan
-  ↓
-Jumlah Pelanggan
-  ↓
-Pilih Meja
-  ↓
-Pilih Menu
-  ↓
-Review Pesanan
-  ↓
-Kirim Pesanan
-```
-
-Durasi: `< 5 menit`
-
-## Video 2 — Koki
-
-```text
-Login
-  ↓
-Antrian Pesanan
-  ↓
-Melihat Detail Pesanan
-  ↓
-Mulai Proses
-  ↓
-Pesanan Selesai
-```
-
-Fungsi tambahan:
-
-- Membatalkan pesanan.
-- Mengembalikan stok menu.
-- Mengembalikan status meja.
-- Mengelola menu.
-- Menambah menu.
-- Mengubah menu.
-- Menghapus menu.
-
-Durasi: `< 5 menit`
-
-## Video 3 — Kasir
-
-```text
-Login
-  ↓
-Dashboard Kasir
-  ↓
-Pesanan Siap Dibayar
-  ↓
-Melihat Detail Pesanan
-  ↓
-Memilih Metode Pembayaran
-  ↓
-Validasi Pembayaran
-  ↓
-Transaksi Selesai
-  ↓
-Melihat Pendapatan Hari Ini
-```
-
-Durasi: `< 5 menit`
-
----
-
-# 🎯 Tujuan Project
-
-PAK RESTO dibuat untuk membantu mengintegrasikan proses operasional restoran berdasarkan tanggung jawab setiap pengguna.
-
-```text
-Pengelolaan Meja
-       ↓
-Pembuatan Pesanan
-       ↓
-Pemrosesan Dapur
-       ↓
-Penyelesaian Pesanan
-       ↓
-Pembayaran
-       ↓
-Pencatatan Transaksi
-       ↓
-Informasi Pendapatan
-```
-
----
-
-# 📌 Catatan
-
-Project ini dibuat sebagai bagian dari tugas/proyek akademik dan digunakan untuk demonstrasi sistem manajemen operasional restoran.
-
-Akun demo yang tercantum pada README digunakan untuk kebutuhan pengujian aplikasi.
