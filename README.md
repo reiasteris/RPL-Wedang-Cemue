@@ -54,7 +54,6 @@ Review Pesanan
 Kirim Pesanan
        ↓
 Pesanan Masuk ke Dapur
-
 ```
 ---
 ### Koki
@@ -82,6 +81,29 @@ Menunggu
 Diproses
     ↓
 Selesai
-
 ```
 ---
+#### Pembatalan Pesanan
+Pembatalan Pesanan
+
+Apabila pesanan tidak dapat diproses, Koki dapat membatalkan pesanan.
+
+Sistem akan:
+- Mengubah status pesanan menjadi dibatalkan.
+- Mengubah status item pesanan menjadi dibatalkan.
+- Mengembalikan stok menu.
+- Mengembalikan status meja menjadi tersedia.
+
+### Kasir
+
+Kasir bertanggung jawab terhadap proses pembayaran pelanggan.
+
+Fitur:
+- Melihat pesanan yang siap dibayar.
+- Melihat detail pesanan.
+- Melihat total pembayaran.
+- Memilih metode pembayaran.
+- Memvalidasi pembayaran.
+- Melihat transaksi yang telah selesai.
+- Melihat pendapatan hari ini.
+- Melihat informasi transaksi.
