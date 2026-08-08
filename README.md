@@ -27,7 +27,7 @@ Setiap role memiliki halaman dan fungsi yang disesuaikan dengan proses kerja mas
 
 Pelayan bertanggung jawab terhadap proses pemesanan pelanggan.
 
-FituR:
+Fitur:
 
 - Melihat kondisi dan ketersediaan meja.
 - Menentukan jumlah pelanggan.
@@ -75,3 +75,13 @@ Fitur:
 - Mengubah menu.
 - Menghapus menu.
 - Mengelola stok menu.
+
+```text
+Menunggu
+    ↓
+Diproses
+    ↓
+Selesai
+
+```
+---
